@@ -1,8 +1,10 @@
 package com.mercadolibre;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import io.restassured.RestAssured;
+
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.is;
 
@@ -10,13 +12,17 @@ import static org.hamcrest.Matchers.is;
 import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
 import static io.restassured.config.LogConfig.logConfig;
 import static io.restassured.config.RestAssuredConfig.config;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import java.io.IOException;
 import java.io.PrintStream;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class APIComparatorItem {
 
@@ -24,12 +30,24 @@ public class APIComparatorItem {
 
 
     @Test
-    public void whenItemDecoratedAsSuccessfullThenOK() throws IOException {
+    public void whenItemDecoratedAsSuccessfullThenOK() throws JsonProcessingException {
         System.out.println("Iniciando test...");
+        List<String> itemsToDecorate = Arrays.asList("MHN400046500");
+        List<Result> resultsSearchAPI = searchAPI();
+        List<Result> itemDecoratedAPI = decorateItemsAPI(String.join(",", itemsToDecorate));
+        final ObjectMapper mapper = new ObjectMapper();
+        mapper.configure(SerializationFeature.FAIL_ON_EMPTY_BEANS, false);
+        assertEquals(mapper.readTree(mapper.writeValueAsString(resultsSearchAPI.stream().filter(rs -> itemsToDecorate.contains(rs.id)).collect(Collectors.toList()))), mapper.readTree(mapper.writeValueAsString(itemDecoratedAPI)));
+    }
+
+    private List<Result> searchAPI() {
         try (LoggerOutputStream outputStream = new LoggerOutputStream(logger)) {
+            final ObjectMapper mapper = new ObjectMapper();
+            mapper.configure(SerializationFeature.FAIL_ON_EMPTY_BEANS, false);
             RestAssured.config = config().logConfig(logConfig()
                     .defaultStream(new PrintStream(outputStream))
                     .enableLoggingOfRequestAndResponseIfValidationFails());
+
             Root searchAPI = RestAssured.given().baseUri("https://internal-api.mercadolibre.com/sites/MHN/search")
                     .and()
                     .queryParam("internal", true)
@@ -68,21 +86,39 @@ public class APIComparatorItem {
                     .get("/")
                     .then()
                     .statusCode(is(equalTo(200)))
-            .extract().body().as(Root.class);
-            outputStream.flush();
+                    .extract().body().as(Root.class);
+            return searchAPI.results;
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+
+    private List<Result> decorateItemsAPI(String items) {
+        try (LoggerOutputStream outputStream = new LoggerOutputStream(logger)) {
             final ObjectMapper mapper = new ObjectMapper();
             mapper.configure(SerializationFeature.FAIL_ON_EMPTY_BEANS, false);
-            String results = mapper.writeValueAsString(searchAPI.results);
-            List<Result> copyResults = searchAPI.results;
-            copyResults.get(0).title = "Prueba";
-            System.out.println("Results: " + results);
-            String copyResult = mapper.writeValueAsString(copyResults);
-            System.out.println("Copy Result: " + copyResult);
-            assertEquals(mapper.readTree(results), mapper.readTree(copyResult));
+            RestAssured.config = config().logConfig(logConfig()
+                    .defaultStream(new PrintStream(outputStream))
+                    .enableLoggingOfRequestAndResponseIfValidationFails());
+            List<Result> list = new ArrayList<>();
+            list = RestAssured.given().baseUri("https://test-api_search-api-go.furyapps.io/items/decorate")
+                    .header("x-auth-token", "b31e006aade2b5cb188ace8e6554ba0370ffd3cddc91474679c371b59181fb2a")
+                    .header("Content-Type", "application/json")
+                    .and()
+                    .queryParam("items", items)
+                    .queryParam("hasFilterSize", true)
+                    .log().all()
+                    .when()
+                    .get("/")
+                    .then()
+                    .statusCode(is(equalTo(200)))
+                    .extract().body().as(list.getClass());
+            return list;
+        } catch (IOException e) {
+            e.printStackTrace();
         }
-
-
-
-
+        return null;
     }
 }

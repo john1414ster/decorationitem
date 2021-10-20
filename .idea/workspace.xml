@@ -1,7 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="00a7d545-a7fc-4925-9534-891ab4c1e84d" name="Default Changelist" comment="" />
+    <list default="true" id="00a7d545-a7fc-4925-9534-891ab4c1e84d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mercadolibre/ItemDecorated.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mercadolibre/JsonParserFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mercadolibre/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mercadolibre/SellerContact.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mercadolibre/APIComparatorItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mercadolibre/APIComparatorItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mercadolibre/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mercadolibre/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mercadolibre/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mercadolibre/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/decoracionitem.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mercadolibre/APIComparatorItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mercadolibre/APIComparatorItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mercadolibre/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mercadolibre/Address.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mercadolibre/Attribute.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mercadolibre/Attribute.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mercadolibre/City.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mercadolibre/City.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mercadolibre/Conditions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mercadolibre/Conditions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mercadolibre/Country.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mercadolibre/Country.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mercadolibre/LoggerOutputStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mercadolibre/LoggerOutputStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mercadolibre/Metadata.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mercadolibre/Metadata.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mercadolibre/PathFromRoot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mercadolibre/PathFromRoot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mercadolibre/Presentation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mercadolibre/Presentation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mercadolibre/Price.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mercadolibre/Price.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mercadolibre/Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mercadolibre/Result.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mercadolibre/Reviews.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mercadolibre/Reviews.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mercadolibre/Root.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mercadolibre/Root.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mercadolibre/SaleTerm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mercadolibre/SaleTerm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mercadolibre/Seller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mercadolibre/Seller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mercadolibre/SellerAddress.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mercadolibre/SellerAddress.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mercadolibre/Shipping.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mercadolibre/Shipping.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mercadolibre/State.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mercadolibre/State.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mercadolibre/Struct.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mercadolibre/Struct.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mercadolibre/Value.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mercadolibre/Value.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mercadolibre/ValueStruct.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mercadolibre/ValueStruct.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/decoracionitem-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/decoracionitem-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,44 +53,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="960">
-              <caret line="64" column="27" selection-start-line="64" selection-start-column="27" selection-end-line="64" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mercadolibre/Result.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="67" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mercadolibre/APIComparatorItem.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mercadolibre/JsonParserFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="29" column="63" lean-forward="true" selection-start-line="29" selection-start-column="63" selection-end-line="29" selection-end-column="63" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mercadolibre/Root.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="9" column="196" selection-start-line="9" selection-start-column="196" selection-end-line="9" selection-end-column="196" />
+            <state relative-caret-position="345">
+              <caret line="23" column="65" lean-forward="true" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -75,7 +80,13 @@
       <find>prices</find>
       <find>process_timeout</find>
       <find>jsonignore</find>
+      <find>seller_contact</find>
+      <find>location</find>
+      <find>Price</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -86,10 +97,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/mercadolibre/Seller.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mercadolibre/SearchAPI.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mercadolibre/Conditions.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mercadolibre/Price.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mercadolibre/Presentation.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mercadolibre/Reviews.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mercadolibre/Address.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mercadolibre/Shipping.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mercadolibre/SellerAddress.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mercadolibre/Country.java" />
@@ -101,10 +110,16 @@
         <option value="$PROJECT_DIR$/src/main/java/com/mercadolibre/ValueStruct.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mercadolibre/Attribute.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mercadolibre/SaleTerm.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/mercadolibre/Root.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mercadolibre/ItemDecorated.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mercadolibre/Address.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mercadolibre/SellerContact.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mercadolibre/Result.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mercadolibre/Location.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mercadolibre/Price.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mercadolibre/APIComparatorItem.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mercadolibre/JsonParserFile.java" />
       </list>
     </option>
   </component>
@@ -137,17 +152,17 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1642" />
+    <option name="x" value="1440" />
     <option name="y" value="-225" />
     <option name="width" value="1920" />
     <option name="height" value="1055" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -158,33 +173,33 @@
             </path>
             <path>
               <item name="decoracionitem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="decoracionitem" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="decoracionitem" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.14518148" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mercadolibre" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
       <recent name="com.mercadolibre" />
     </key>
   </component>
@@ -200,7 +215,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.JsonParserFile">
+    <configuration name="JsonParserFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mercadolibre.JsonParserFile" />
+      <module name="decoracionitem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mercadolibre.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="APIComparatorItem.whenItemDecoratedAsSuccessfullThenOK" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="decoracionitem" />
       <extension name="coverage">
@@ -209,16 +237,20 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8.0_265" />
       <option name="PACKAGE_NAME" value="com.mercadolibre" />
       <option name="MAIN_CLASS_NAME" value="com.mercadolibre.APIComparatorItem" />
       <option name="METHOD_NAME" value="whenItemDecoratedAsSuccessfullThenOK" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JsonParserFile" />
         <item itemvalue="JUnit.APIComparatorItem.whenItemDecoratedAsSuccessfullThenOK" />
       </list>
     </recent_temporary>
@@ -236,57 +268,62 @@
       <workItem from="1630327164960" duration="442000" />
       <workItem from="1630327618832" duration="9978000" />
       <workItem from="1630609899093" duration="1635000" />
-      <workItem from="1630696808316" duration="876000" />
+      <workItem from="1630696808316" duration="2231000" />
+      <workItem from="1631572454712" duration="3482000" />
+      <workItem from="1631649468885" duration="13205000" />
+      <workItem from="1632336536211" duration="10619000" />
+      <workItem from="1633554906407" duration="2568000" />
+      <workItem from="1634744513690" duration="528000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="APIComparatorItem_whenItemDecoratedAsSuccessfullThenOK - 2021.08.30 at 09h 30m 21s.xml">
+    <history-entry file="APIComparatorItem_whenItemDecoratedAsSuccessfullThenOK - 2021.09.13 at 18h 05m 02s.xml">
       <configuration name="APIComparatorItem.whenItemDecoratedAsSuccessfullThenOK" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="APIComparatorItem_whenItemDecoratedAsSuccessfullThenOK - 2021.08.30 at 09h 32m 50s.xml">
+    <history-entry file="APIComparatorItem_whenItemDecoratedAsSuccessfullThenOK - 2021.09.13 at 18h 05m 51s.xml">
       <configuration name="APIComparatorItem.whenItemDecoratedAsSuccessfullThenOK" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="APIComparatorItem_whenItemDecoratedAsSuccessfullThenOK - 2021.08.30 at 09h 32m 55s.xml">
+    <history-entry file="APIComparatorItem_whenItemDecoratedAsSuccessfullThenOK - 2021.09.13 at 18h 05m 56s.xml">
       <configuration name="APIComparatorItem.whenItemDecoratedAsSuccessfullThenOK" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="APIComparatorItem_whenItemDecoratedAsSuccessfullThenOK - 2021.08.30 at 13h 49m 20s.xml">
+    <history-entry file="APIComparatorItem_whenItemDecoratedAsSuccessfullThenOK - 2021.09.13 at 18h 07m 26s.xml">
       <configuration name="APIComparatorItem.whenItemDecoratedAsSuccessfullThenOK" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="APIComparatorItem_whenItemDecoratedAsSuccessfullThenOK - 2021.08.30 at 15h 02m 18s.xml">
+    <history-entry file="APIComparatorItem_whenItemDecoratedAsSuccessfullThenOK - 2021.09.13 at 18h 10m 24s.xml">
       <configuration name="APIComparatorItem.whenItemDecoratedAsSuccessfullThenOK" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="APIComparatorItem_whenItemDecoratedAsSuccessfullThenOK - 2021.09.02 at 14h 11m 54s.xml">
+    <history-entry file="APIComparatorItem_whenItemDecoratedAsSuccessfullThenOK - 2021.09.13 at 18h 10m 51s.xml">
       <configuration name="APIComparatorItem.whenItemDecoratedAsSuccessfullThenOK" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="APIComparatorItem_whenItemDecoratedAsSuccessfullThenOK - 2021.09.02 at 14h 12m 53s.xml">
+    <history-entry file="APIComparatorItem_whenItemDecoratedAsSuccessfullThenOK - 2021.09.13 at 18h 12m 03s.xml">
       <configuration name="APIComparatorItem.whenItemDecoratedAsSuccessfullThenOK" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="APIComparatorItem_whenItemDecoratedAsSuccessfullThenOK - 2021.09.02 at 14h 13m 23s.xml">
+    <history-entry file="APIComparatorItem_whenItemDecoratedAsSuccessfullThenOK - 2021.09.13 at 18h 13m 08s.xml">
       <configuration name="APIComparatorItem.whenItemDecoratedAsSuccessfullThenOK" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="APIComparatorItem_whenItemDecoratedAsSuccessfullThenOK - 2021.09.02 at 14h 13m 45s.xml">
+    <history-entry file="APIComparatorItem_whenItemDecoratedAsSuccessfullThenOK - 2021.09.13 at 18h 16m 00s.xml">
       <configuration name="APIComparatorItem.whenItemDecoratedAsSuccessfullThenOK" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="APIComparatorItem_whenItemDecoratedAsSuccessfullThenOK - 2021.09.03 at 14h 20m 22s.xml">
+    <history-entry file="APIComparatorItem_whenItemDecoratedAsSuccessfullThenOK - 2021.09.13 at 18h 22m 01s.xml">
       <configuration name="APIComparatorItem.whenItemDecoratedAsSuccessfullThenOK" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12931000" />
+    <option name="totallyTimeSpent" value="44688000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1642" y="-225" width="1920" height="1055" extended-state="0" />
+    <frame x="1440" y="-225" width="1920" height="1055" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17944622" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17944622" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.32947233" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.3291536" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.3291536" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.5611285" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.6081505" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -294,13 +331,13 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3291536" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.4054054" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.015974442" />
+      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.17305644" />
       <window_info anchor="right" id="Mongo Explorer" order="5" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
@@ -314,15 +351,27 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/mercadolibre/APIComparatorItem.java</url>
-          <line>71</line>
+          <line>35</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/mercadolibre/APIComparatorItem.java</url>
-          <line>77</line>
+          <line>37</line>
           <properties />
-          <option name="timeStamp" value="2" />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/mercadolibre/JsonParserFile.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/mercadolibre/JsonParserFile.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -347,23 +396,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercadolibre/Metadata.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercadolibre/Price.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mercadolibre/Presentation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -380,13 +412,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mercadolibre/Reviews.java">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercadolibre/Address.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mercadolibre/Shipping.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -406,27 +431,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercadolibre/State.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercadolibre/City.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercadolibre/Struct.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -465,37 +469,121 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="64" column="27" selection-start-line="64" selection-start-column="27" selection-end-line="64" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mercadolibre/Root.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="9" column="196" selection-start-line="9" selection-start-column="196" selection-end-line="9" selection-end-column="196" />
+        <state relative-caret-position="210">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercadolibre/Address.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercadolibre/SellerContact.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercadolibre/City.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercadolibre/State.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercadolibre/Struct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercadolibre/Location.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercadolibre/ItemDecorated.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.8.0-RC1/junit-platform-commons-1.8.0-RC1.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="370" selection-start-line="370" selection-end-line="370" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercadolibre/Price.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercadolibre/Metadata.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mercadolibre/Result.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="67" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
+        <state relative-caret-position="270">
+          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercadolibre/ParserFileJson.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mercadolibre/APIComparatorItem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="29" column="63" lean-forward="true" selection-start-line="29" selection-start-column="63" selection-end-line="29" selection-end-column="63" />
+        <state relative-caret-position="1410">
+          <caret line="116" column="37" selection-start-line="115" selection-start-column="32" selection-end-line="116" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercadolibre/JsonParserFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="65" lean-forward="true" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -531,6 +619,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
+          <last-edited>groovy-2.4.5</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

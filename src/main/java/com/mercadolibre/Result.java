@@ -28,6 +28,8 @@ public class Result{
     public Object installments;
     public Address address;
     public Shipping shipping;
+    public SellerContact seller_contact;
+    public Location location;
     public SellerAddress seller_address;
     public List<Attribute> attributes;
     public Object original_price;
