@@ -2,43 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00a7d545-a7fc-4925-9534-891ab4c1e84d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mercadolibre/ItemDecorated.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mercadolibre/JsonParserFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mercadolibre/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mercadolibre/SellerContact.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mercadolibre/APIComparatorItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mercadolibre/APIComparatorItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mercadolibre/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mercadolibre/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mercadolibre/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mercadolibre/Result.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/decoracionitem.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mercadolibre/APIComparatorItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mercadolibre/APIComparatorItem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mercadolibre/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mercadolibre/Address.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mercadolibre/Attribute.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mercadolibre/Attribute.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mercadolibre/City.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mercadolibre/City.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mercadolibre/Conditions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mercadolibre/Conditions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mercadolibre/Country.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mercadolibre/Country.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mercadolibre/LoggerOutputStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mercadolibre/LoggerOutputStream.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mercadolibre/Metadata.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mercadolibre/Metadata.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mercadolibre/PathFromRoot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mercadolibre/PathFromRoot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mercadolibre/Presentation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mercadolibre/Presentation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mercadolibre/Price.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mercadolibre/Price.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mercadolibre/Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mercadolibre/Result.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mercadolibre/Reviews.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mercadolibre/Reviews.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mercadolibre/Root.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mercadolibre/Root.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mercadolibre/SaleTerm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mercadolibre/SaleTerm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mercadolibre/Seller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mercadolibre/Seller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mercadolibre/SellerAddress.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mercadolibre/SellerAddress.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mercadolibre/Shipping.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mercadolibre/Shipping.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mercadolibre/State.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mercadolibre/State.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mercadolibre/Struct.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mercadolibre/Struct.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mercadolibre/Value.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mercadolibre/Value.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mercadolibre/ValueStruct.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mercadolibre/ValueStruct.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/decoracionitem-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/decoracionitem-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mercadolibre/JsonParserFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mercadolibre/JsonParserFile.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -56,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/mercadolibre/JsonParserFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="65" lean-forward="true" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="65" />
+            <state relative-caret-position="330">
+              <caret line="22" column="121" selection-start-line="22" selection-start-column="121" selection-end-line="22" selection-end-column="121" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -273,7 +237,7 @@
       <workItem from="1631649468885" duration="13205000" />
       <workItem from="1632336536211" duration="10619000" />
       <workItem from="1633554906407" duration="2568000" />
-      <workItem from="1634744513690" duration="528000" />
+      <workItem from="1634744513690" duration="627000" />
     </task>
     <servers />
   </component>
@@ -310,10 +274,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44688000" />
+    <option name="totallyTimeSpent" value="44787000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="-225" width="1920" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17944622" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -363,13 +328,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/mercadolibre/JsonParserFile.java</url>
-          <line>24</line>
+          <line>26</line>
           <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/mercadolibre/JsonParserFile.java</url>
-          <line>36</line>
+          <line>38</line>
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
@@ -582,8 +547,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mercadolibre/JsonParserFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="65" lean-forward="true" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="65" />
+        <state relative-caret-position="330">
+          <caret line="22" column="121" selection-start-line="22" selection-start-column="121" selection-end-line="22" selection-end-column="121" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

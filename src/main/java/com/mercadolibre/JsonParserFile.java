@@ -19,6 +19,8 @@ public class JsonParserFile {
     public static void main(String[] args) {
         JSONParser parser = new JSONParser();
         try {
+            //Primero se descarga el zip de items, se descomprime y se lee de la siguiente ruta:
+            //curl --location --request GET 'http://internal-api.mercadolibre.com/sites/MHN/items' --output itemsMHN.gzip
             Object obj = parser.parse(new FileReader("/Users/jalvarado/Documents/Proyectos/itemsMHN.json"));
             JSONArray jsonArray = (JSONArray) obj;
             Iterator<JSONObject> iterator = jsonArray.iterator();
